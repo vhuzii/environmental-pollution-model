@@ -1,0 +1,5 @@
+name,emission_reduction_percent,data_label
+Базовий сценарій без очищення,0,synthetic
+Зменшення викидів на 30%,30,synthetic
+Зменшення викидів на 60%,60,synthetic
+Зменшення викидів на 90%,90,synthetic

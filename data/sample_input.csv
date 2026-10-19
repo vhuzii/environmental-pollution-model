@@ -1,0 +1,2 @@
+pollutant,emission_rate_g_s,effective_height_m,wind_speed_m_s,wind_direction_deg,stability_class,decay_coefficient_per_s,background_concentration_ug_m3,threshold_ug_m3,domain_width_m,domain_length_m,grid_step_m,population_density_per_km2,exposure_duration_h,damage_coefficient_uah,filter_installation_cost_uah,filter_operating_cost_uah,emission_reduction_percent,use_constant_sigma,sigma_y_m,sigma_z_m
+SO2,25,80,3.5,270,D,0,5,50,8000,10000,100,400,24,15,750000,120000,0,false,80,40

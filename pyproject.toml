@@ -1,0 +1,31 @@
+[project]
+name = "environmental-pollution-model"
+version = "0.1.0"
+description = "Навчальна модель поширення атмосферного забруднення та порівняння заходів зі зменшення викидів"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "numpy>=1.26",
+    "pandas>=2.1",
+    "plotly>=5.18",
+    "python-dotenv>=1.0",
+    "requests>=2.31",
+    "streamlit>=1.32",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0",
+    "ruff>=0.4",
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 120
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]
